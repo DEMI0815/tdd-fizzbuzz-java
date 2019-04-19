@@ -3,6 +3,9 @@ package com.thoughtworks.tdd;
 public class FizzBuzz {
 
     public String fizzBuzz(int number) {
-        return "2";
+        if (number % 3 == 0) {
+            return "Fizz";
+        }
+        return number + "";
     }
 }

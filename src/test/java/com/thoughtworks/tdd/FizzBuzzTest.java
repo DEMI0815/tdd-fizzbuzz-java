@@ -22,4 +22,12 @@ public class FizzBuzzTest {
 
         assertThat(actual, is("Fizz"));
     }
+
+    @Test
+    public void fizz_buzz_test_buzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String actual = fb.fizzBuzz(5);
+
+        assertThat(actual, is("Buzz"));
+    }
 }

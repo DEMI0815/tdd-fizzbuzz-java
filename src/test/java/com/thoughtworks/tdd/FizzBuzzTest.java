@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class FizzBuzzTest {
+class FizzBuzzTest {
 
     @Test
-    public void fizz_buzz_test() {
+    void fizz_buzz_test() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(2);
 
@@ -16,7 +16,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizz_buzz_test_fizz() {
+    void fizz_buzz_test_fizz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(3);
 
@@ -24,7 +24,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizz_buzz_test_buzz() {
+    void fizz_buzz_test_buzz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(5);
 
@@ -32,7 +32,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizz_buzz_test_whizz() {
+    void fizz_buzz_test_whizz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(7);
 
@@ -40,7 +40,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizz_buzz_test_fizzBuzz() {
+    void fizz_buzz_test_fizzBuzz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(15);
 
@@ -48,7 +48,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizz_buzz_test_fizzWhizz() {
+    void fizz_buzz_test_fizzWhizz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(21);
 
@@ -56,7 +56,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizz_buzz_test_buzzWhizz() {
+    void fizz_buzz_test_buzzWhizz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(35);
 
@@ -64,7 +64,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void fizz_buzz_test_fizzBuzzWhizz() {
+    void fizz_buzz_test_fizzBuzzWhizz() {
         FizzBuzz fb = new FizzBuzz();
         String actual = fb.fizzBuzz(105);
 

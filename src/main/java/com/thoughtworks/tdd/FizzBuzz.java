@@ -1,8 +1,8 @@
 package com.thoughtworks.tdd;
 
-public class FizzBuzz {
+class FizzBuzz {
 
-    public String fizzBuzz(int number) {
+    String fizzBuzz(int number) {
         if (number % 3 == 0) {
             if (number % 5 == 0) {
                 if (number % 7 == 0) {

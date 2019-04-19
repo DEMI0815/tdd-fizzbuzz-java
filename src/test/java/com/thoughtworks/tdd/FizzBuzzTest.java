@@ -46,4 +46,12 @@ public class FizzBuzzTest {
 
         assertThat(actual, is("FizzBuzz"));
     }
+
+    @Test
+    public void fizz_buzz_test_fizzWhizz() {
+        FizzBuzz fb = new FizzBuzz();
+        String actual = fb.fizzBuzz(21);
+
+        assertThat(actual, is("FizzWhizz"));
+    }
 }
